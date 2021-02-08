@@ -5,8 +5,9 @@ This is a modified version from  [Faster-R-CNN-with-model-pretrained-on-Visual-G
   build additionally, it cut down the code size, and avoid some build problem about "GPU support"
  - provide a [demo ipynb file](./demo.ipynb) to show the demo result directly.
  - remove python2.x support
- - backup a pretrained Faster RCNN model at this GitHub repo [release]()
-  
+ - backup a pretrained Faster RCNN model at this GitHub repo [release](https://github.com/sailist/run.Faster-R-CNN/releases/tag/v.resnet101-vg)
+
+
 
 # Faster R-CNN with model pretrained on Visual Genome
 
