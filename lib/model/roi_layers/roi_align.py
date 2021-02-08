@@ -43,7 +43,8 @@ class _ROIAlign(Function):
         return grad_input, None, None, None, None
 
 
-roi_align = _ROIAlign.apply
+# roi_align = _ROIAlign.apply
+from torchvision.ops import roi_align
 
 
 class ROIAlign(nn.Module):
