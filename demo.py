@@ -1,11 +1,5 @@
 """visualize results of the pre-trained model """
 
-# Example
-# python demo.py --net res101 --dataset vg --load_dir models --cuda
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-
 import argparse
 import os
 import pdb
@@ -16,7 +10,6 @@ import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 import torch
-# from scipy.misc import imread
 from imageio import imread
 from torch.autograd import Variable
 
@@ -27,11 +20,6 @@ from model.rpn.bbox_transform import clip_boxes
 from model.utils.blob import im_list_to_blob
 from model.utils.config import cfg, cfg_from_file, cfg_from_list
 from model.utils.net_utils import vis_detections
-
-try:
-    xrange  # Python 2
-except NameError:
-    xrange = range  # Python 3
 
 
 def parse_args():

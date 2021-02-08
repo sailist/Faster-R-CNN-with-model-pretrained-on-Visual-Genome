@@ -1,6 +1,12 @@
-T
+This is a modified version from  [Faster-R-CNN-with-model-pretrained-on-Visual-Genome](https://github.com/shilrley6/Faster-R-CNN-with-model-pretrained-on-Visual-Genome)
+, here list the changes:
 
-
+ - using nms/roi function provided from torchvision to replace original nms/roi_pool function and files which need to be
+  build additionally, it cut down the code size, and avoid some build problem about "GPU support"
+ - provide a [demo ipynb file](./demo.ipynb) to show the demo result directly.
+ - remove python2.x support
+ - backup a pretrained Faster RCNN model at this GitHub repo [release]()
+  
 
 # Faster R-CNN with model pretrained on Visual Genome
 
@@ -22,9 +28,9 @@ we use the same setting and benchmark
 as [faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch/tree/pytorch-1.0). The results of the model are
 shown below.
 
-model    |dataset| #GPUs | batch size | lr        | lr_decay | max_epoch     | mAP
+model     |dataset| #GPUs | batch size | lr           | lr_decay | max_epoch       | mAP
 ---------|---------|--------|-----|--------|-----|-----|-----
-[Res-101](https://drive.google.com/file/d/18n_3V1rywgeADZ3oONO0DsuuS9eMW6sN/view?usp=sharing)    |  Visual Genome | 1 1080TI | 4    |1e-3| 5   | 20  |   10.19
+[Res-101](https://drive.google.com/file/d/18n_3V1rywgeADZ3oONO0DsuuS9eMW6sN/view?usp=sharing)     |  Visual Genome | 1 1080TI | 4     |1e-3| 5    | 20  |   10.19
 
 Download the pretrained model and put it to the folder $load_dir.
 

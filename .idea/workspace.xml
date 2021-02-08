@@ -2,41 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14707b28-8dfd-4ef5-8d1f-69c9b354b047" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/_ext/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/_ext/crop_resize/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/_ext/crop_resize/_crop_resize.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/_ext/roi_crop/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/build.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/functions/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/functions/crop_resize.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/functions/gridgen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/functions/roi_crop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/make.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/modules/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/modules/gridgen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/modules/roi_crop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/src/roi_crop.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/src/roi_crop.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/src/roi_crop_cuda.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/src/roi_crop_cuda.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/src/roi_crop_cuda_kernel.cu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_crop/src/roi_crop_cuda_kernel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_layers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/roi_layers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_pooling/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_pooling/_ext/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_pooling/_ext/roi_pooling/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_pooling/build.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_pooling/functions/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_pooling/functions/roi_pool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_pooling/modules/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_pooling/modules/roi_pool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_pooling/src/roi_pooling.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_pooling/src/roi_pooling.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_pooling/src/roi_pooling_cuda.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_pooling/src/roi_pooling_cuda.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_pooling/src/roi_pooling_kernel.cu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/roi_pooling/src/roi_pooling_kernel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +13,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1oBBobhR1kYRdzSjSd8iuKapiI7" />
   <component name="ProjectViewState">
@@ -71,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612750278979</updated>
       <workItem from="1612750280762" duration="2172000" />
-      <workItem from="1612753198799" duration="946000" />
+      <workItem from="1612753198799" duration="3379000" />
     </task>
     <servers />
   </component>
