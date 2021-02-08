@@ -287,7 +287,7 @@ if __name__ == '__main__':
 
     if vis:
         im2show = np.copy(im)
-    for j in xrange(1, len(classes)):
+    for j in range(1, len(classes)):
         inds = torch.nonzero(scores[:, j] > thresh).view(-1)
         # if there is det
         if inds.numel() > 0:
